@@ -15,10 +15,10 @@ const Navbar = () => {
   return (
     <nav className="bg-black h-20 flex justify-center items-center text-xl fixed top-0 w-full z-50">
       <div className="flex justify-between h-20 w-full max-w-5xl">
-        <div className="text-white font-rouge cursor-pointer text-4xl flex items-center p-4" onClick={scrollToTop}>
+        <div className="text-white font-rouge cursor-pointer text-4xl flex items-center p-4" onClick={scrollToTop} aria-label="Scroll to top">
           Bruno Belloso
         </div>
-        <div className="block md:hidden p-6" onClick={toggleNavbar}>
+        <div className="block md:hidden p-6" onClick={toggleNavbar} aria-label="Toggle navigation">
           <i className={isOpen ? 'fas fa-times text-4xl cursor-pointer text-white' : 'fas fa-bars text-4xl cursor-pointer text-white'}></i>
         </div>
         <ul className={`${isOpen ? 'flex' : 'hidden'} flex-col md:flex md:flex-row items-center list-none text-center absolute md:static top-20 left-0 w-full md:w-auto bg-black md:bg-transparent transition-all duration-500`}>

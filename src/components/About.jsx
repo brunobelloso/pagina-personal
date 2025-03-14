@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <section className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 p-8" id="about" aria-labelledby="about-heading">
-            <h1 id="about-heading" className="text-5xl text-white mb-6">About Me 👋</h1>
+            <h2 id="about-heading" className="text-5xl text-white mb-6">About Me 👋</h2>
             <div className="space-y-6 max-w-prose bg-white p-6 rounded-lg shadow-lg">
                 <p className="text-lg text-gray-800 text-left">
                     Hi! I'm Bruno, a results-driven developer and systems administrator with a strong background in automation, web development, and data management. 🚀

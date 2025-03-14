@@ -6,6 +6,14 @@
   text-align: center;
 }
 
+a {
+  color:chartreuse;
+}
+
+a:hover {
+  color:forestgreen;
+}
+
 .font-rouge {
   font-family: "Dancing Script", cursive;
 }
